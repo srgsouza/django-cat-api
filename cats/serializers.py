@@ -5,4 +5,4 @@ from .models import Cat
 class CatSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Cat
-        fields = ('name',)
+        fields = ('id','name')
